@@ -1,0 +1,15 @@
+# Dependencias y compilación
+node_modules/
+dist/
+
+# Variables de entorno secretas
+.env
+
+# Archivos del sistema y editor
+.DS_Store
+.vscode/
+
+# Apuntes y contexto personal (solo local)
+CONTEXTO_PARA_CONTINUAR.md
+GUIA_DEL_PROYECTO.md
+GUIA_PROYECTO.md

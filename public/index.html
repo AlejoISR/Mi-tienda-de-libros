@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Libros</title>
+</head>
+<body>
+
+    <h1>Gestor de Libros, Libreria alajandro</h1>
+
+    <button type="button" id="btn-ver">Ver libros</button>
+    <button type="button">Escribir un libro</button>
+    <button type="button">Editar libro</button>
+    <button type="button">Borrar libro</button>
+
+    <hr>
+
+    <form id="form-libro">
+        <p>
+            <label>Título:</label><br>
+            <input type="text" id="input-titulo" required>
+        </p>
+        <p>
+            <label>Autor:</label><br>
+            <input type="text" id="input-autor" required>
+        </p>
+        <p>
+            <label>Año:</label><br>
+            <input type="number" id="input-year" required>
+        </p>
+        <button type="submit">Guardar Libro</button>
+    </form>
+
+    <h2>Lista de Libros</h2>
+    <ul id="lista-libros"></ul>
+    <hr>
+
+<h2>Buscar libro por ID</h2>
+<div>
+    <input type="number" id="input-buscar-id" placeholder="Escribe el ID (ej: 1)">
+    <button type="button" id="btn-buscar">Buscar</button>
+</div>
+
+<div id="resultado-busqueda"></div>
+
+<script src="app.js"></script>
+</body>
+
+</html>

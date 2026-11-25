@@ -1,0 +1,54 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": 1925
+    },
+    { "id": 2, "title": "TEO", "author": "Alejandro", "year": 2006 },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "year": 1960
+    },
+    {
+      "id": 4,
+      "title": "El principito",
+      "author": "Antoine de Saint-Exupéry",
+      "year": 1943
+    },
+    {
+      "id": 5,
+      "title": "Cien años de soledad",
+      "author": "Gabriel García Márquez",
+      "year": 1967
+    },
+    { "id": 6, "title": "1984", "author": "George Orwell", "year": 1949 },
+    {
+      "id": 7,
+      "title": "Matar a un ruiseñor",
+      "author": "Harper Lee",
+      "year": 1960
+    },
+    {
+      "id": 8,
+      "title": "El código Da Vinci",
+      "author": "Dan Brown",
+      "year": 2003
+    },
+    {
+      "id": 9,
+      "title": "El alquimista",
+      "author": "Paulo Coelho",
+      "year": 1988
+    },
+    {
+      "id": 10,
+      "title": "Orgullo y prejuicio",
+      "author": "Jane Austen",
+      "year": 1813
+    }
+  ]
+}
