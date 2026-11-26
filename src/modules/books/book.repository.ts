@@ -1,7 +1,20 @@
 /*
-- Este archivo es el unico que sabe donde y como se guardan los datos.
-  Se encarga de interactuar con el almacenamiento (actualmente db.json, mas adelante PostgreSQL).
+================================================================================
+📍 PASO 6 DE 6: book.repository.ts (El Almacenero / Acceso a Datos)
+--------------------------------------------------------------------------------
+📝 Tu nota: Este archivo es el único que sabe dónde y cómo se guardan los datos.
+            Se encarga de interactuar con el almacenamiento (actualmente db.json,
+            más adelante PostgreSQL con SELECT, INSERT, UPDATE, DELETE).
 
+⬅️ VIENE DE:  Paso 5 -> `src/modules/books/book.service.ts`
+⚙️ QUÉ HACE:  Abre `db.json` (o consulta la base de datos), busca, crea, modifica
+              o borra el libro, y devuelve el resultado de vuelta hacia arriba.
+➡️ VA HACIA:  Lee/escribe en `db.json` y devuelve el dato a `book.service.ts`
+              (que lo sube a `book.controller.ts` -> y de ahí al navegador).
+
+🗺️ MAPA DEL FLUJO:
+   [1. server.ts] ➔ [2. app.ts] ➔ [3. book.routes.ts] ➔ [4. book.controller.ts] ➔ [5. book.service.ts] ➔ ⭐[6. book.repository.ts] ➔ (db.json)
+================================================================================
 */
 
 import fs from "fs";

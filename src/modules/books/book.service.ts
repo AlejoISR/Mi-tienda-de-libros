@@ -1,3 +1,20 @@
+/*
+================================================================================
+📍 PASO 5 DE 6: book.service.ts (El Cocinero / Reglas de Negocio)
+--------------------------------------------------------------------------------
+📝 Tu nota: Contiene las reglas de negocio y limpia los datos (por ejemplo con .trim())
+            antes de mandarlos a guardar. No usa `req`/`res` ni toca `db.json` directo.
+
+⬅️ VIENE DE:  Paso 4 -> `src/modules/books/book.controller.ts`
+⚙️ QUÉ HACE:  Recibe los datos limpios del controlador, aplica las normas de la
+              aplicación (quitar espacios en blanco, etc.) y pide los datos al repositorio.
+➡️ VA HACIA:  Paso 6 -> `src/modules/books/book.repository.ts`
+
+🗺️ MAPA DEL FLUJO:
+   [1. server.ts] ➔ [2. app.ts] ➔ [3. book.routes.ts] ➔ [4. book.controller.ts] ➔ ⭐[5. book.service.ts] ➔ [6. book.repository.ts]
+================================================================================
+*/
+
 import * as bookRepository from "./book.repository.js";
 import { Book, CreateBookInput, UpdateBookInput } from "./book.types.js";
 
